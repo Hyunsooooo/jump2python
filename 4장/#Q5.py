@@ -1,0 +1,5 @@
+f = open('text.txt','w')
+f.write('Life is too short')
+f.close()
+f2 = open('text.txt','r')
+print(f2.read())
